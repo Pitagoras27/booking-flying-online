@@ -1,7 +1,7 @@
 [
   {
     "id": "0",
-    "flightNbr": "6E-278",
+    "flightNbr": "MexA-278",
     "airlineName": "MexiAzteca",
     "deptTime": "20:00",
     "deptCity": "CDMX",
@@ -12,7 +12,7 @@
   },
   {
     "id": "1",
-    "flightNbr": "6E-274",
+    "flightNbr": "MexA-274",
     "airlineName": "MexiAzteca",
     "deptTime": "16:00",
     "deptCity": "CDMX",
@@ -23,7 +23,7 @@
   },
   {
     "id": "2",
-    "flightNbr": "6E-275",
+    "flightNbr": "MexA-275",
     "airlineName": "MexiAzteca",
     "deptTime": "14:00",
     "deptCity": "CDMX",
@@ -34,7 +34,7 @@
   },
   {
     "id": "3",
-    "flightNbr": "6E-275",
+    "flightNbr": "MexA-S275",
     "airlineName": "MexiAzteca",
     "deptTime": "13:00",
     "deptCity": "CDMX",
@@ -45,8 +45,8 @@
   },
   {
     "id": "4",
-    "flightNbr": "AI-275",
-    "airlineName": "Air India",
+    "flightNbr": "AM-275",
+    "airlineName": "Air Mexicana",
     "deptTime": "03:00",
     "deptCity": "CDMX",
     "arivalTime": "05:00",
@@ -56,8 +56,8 @@
   },
   {
     "id": "5",
-    "flightNbr": "AI-275",
-    "airlineName": "Air India",
+    "flightNbr": "AM-275",
+    "airlineName": "Air Mexicana",
     "deptTime": "04:00",
     "deptCity": "CDMX",
     "arivalTime": "06:00",
@@ -67,8 +67,8 @@
   },
   {
     "id": "6",
-    "flightNbr": "AI-275",
-    "airlineName": "Air India",
+    "flightNbr": "AM-275",
+    "airlineName": "Air Mexicana",
     "deptTime": "03:00",
     "deptCity": "CDMX",
     "arivalTime": "05:00",
@@ -78,8 +78,8 @@
   },
   {
     "id": "7",
-    "flightNbr": "AI-275",
-    "airlineName": "Air India",
+    "flightNbr": "AM-275",
+    "airlineName": "Air Mexicana",
     "deptTime": "04:00",
     "deptCity": "CDMX",
     "arivalTime": "06:00",
@@ -89,8 +89,8 @@
   },
   {
     "id": "8",
-    "flightNbr": "AI-266",
-    "airlineName": "Air India",
+    "flightNbr": "AM-266",
+    "airlineName": "Air Mexicana",
     "deptTime": "04:00",
     "deptCity": "Moscú",
     "arivalTime": "06:00",
@@ -100,7 +100,7 @@
   },
   {
     "id": "9",
-    "flightNbr": "6E-279",
+    "flightNbr": "MexA-279",
     "airlineName": "MexiAzteca",
     "deptTime": "16:00",
     "deptCity": "Moscú",
@@ -108,5 +108,60 @@
     "arivalCity": "Pekín",
     "noOfStops": "2",
     "price": "4355"
+  },
+  {
+    "id": "10",
+    "flightNbr": "AM-277",
+    "airlineName": "Air Mexicana",
+    "deptTime": "11:00",
+    "deptCity": "CDMX",
+    "arivalTime": "18:00",
+    "arivalCity": "Moscu",
+    "noOfStops": "1",
+    "price": "19500"
+  },
+  {
+    "id": "10",
+    "flightNbr": "AM-212",
+    "airlineName": "Air Mexicana",
+    "deptTime": "14:00",
+    "deptCity": "CDMX",
+    "arivalTime": "20:00",
+    "arivalCity": "Moscu",
+    "noOfStops": "1",
+    "price": "22500"
+  },
+  {
+    "id": "11",
+    "flightNbr": "AM-2E12",
+    "airlineName": "Air Mexicana",
+    "deptTime": "14:00",
+    "deptCity": "CDMX",
+    "arivalTime": "20:00",
+    "arivalCity": "París",
+    "noOfStops": "0",
+    "price": "12500"
+  },
+  {
+    "id": "12",
+    "flightNbr": "Vis-211",
+    "airlineName": "Volairis",
+    "deptTime": "13:00",
+    "deptCity": "CDMX",
+    "arivalTime": "18:00",
+    "arivalCity": "Berlín",
+    "noOfStops": "1",
+    "price": "14500"
+  },
+  {
+    "id": "13",
+    "flightNbr": "Vis-254",
+    "airlineName": "Volairis",
+    "deptTime": "20:00",
+    "deptCity": "CDMX",
+    "arivalTime": "01:00",
+    "arivalCity": "Berlín",
+    "noOfStops": "1",
+    "price": "11500"
   }
 ]

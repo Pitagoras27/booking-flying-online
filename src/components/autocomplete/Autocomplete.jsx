@@ -3,22 +3,23 @@ import { useDispatch, useSelector } from "react-redux";
 import Downshift from "downshift";
 import Arrow from "../icons/arrow";
 import actions from "../../constants/actions";
-// import CityJSON from "../../mocks/cities.json";
+import CityJSON from "../../mocks/cities.json";
 import "../../styles/global.scss";
 import "../styles/Autocomplete.css";
 
 const Autocomplete = ({ handleSelect, labelTarget }) => {
   const dispatch = useDispatch();
-  const citiesList = useSelector(
-    (state) => state.flightSearch.getCitiesList?.cities
-  );
+  // const citiesList = useSelector(
+  //   (state) => state.flightSearch.getCitiesList?.cities
+  // );
   useEffect(() => {
-    dispatch({
-      type: actions.GET_FETCH_CITIES,
-    });
+    // TODO: create API for deploy
+    // dispatch({
+    //   type: actions.GET_FETCH_CITIES,
+    // });
   }, []);
   // ? Mock
-  // const cities = [...CityJSON];
+  const citiesList = [...CityJSON];
   const itemToString = (item) => (item ? item.name : "");
 
   const stateReducer = (state, changes) => {

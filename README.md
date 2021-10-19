@@ -30,3 +30,7 @@ You can make trips from the CDMX to any destination city
 From any other city to any other destination, there is no information in API
 
 For libraries view package json
+
+# Note
+
+This app use mocks for ease of use

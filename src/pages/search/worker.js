@@ -3,6 +3,7 @@ import { put, call } from "redux-saga/effects";
 import actions from "../../constants/actions";
 import { ApiPath } from "../../config/apiPath";
 import { filterBySourceDest } from "../../utils/data-service";
+import FlightJSON from "../../mocks/flights.json";
 import { get } from "../../utils/xhr";
 
 /**
@@ -11,9 +12,10 @@ import { get } from "../../utils/xhr";
  */
 export function* fetFlightList(payload) {
   let url = `${ApiPath.BASE}/${ApiPath.FLIGHTS}`;
+  const jsonResponse = [...FlightJSON];
   try {
     // uncomment when API is available
-    const jsonResponse = yield call(get, url);
+    // const jsonResponse = yield call(get, url);
     const response = filterBySourceDest(payload, jsonResponse);
     yield put({
       type: actions.GET_FLIGHT_LIST_SUCCESS,
