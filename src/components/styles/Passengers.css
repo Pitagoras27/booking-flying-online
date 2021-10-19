@@ -1,0 +1,12 @@
+select.passengers-control {
+  height: 52px;
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin-top: 28px;
+}
+
+select.passengers-control::after {
+  color: red;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "flight-booking",
+  "version": "1.0.0",
+  "description": "Bookink flying online",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@ryancavanaugh/redux-saga": "0.9.12-alpha",
+    "@y0c/react-datepicker": "^1.0.0",
+    "concurrently": "^6.3.0",
+    "downshift": "2.0.0-beta.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest-enzyme": "^7.1.2",
+    "json-server": "^0.17.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.4",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.0",
+    "redux": "4.1.0",
+    "redux-saga": "0.16.1",
+    "sass": "^1.42.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"json-server --port 3009 --watch server/flights.json\" ",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,20 @@
+/* Select container */
+.select-container {
+  position: relative;
+}
+
+/* Toggle Arrow button */
+.toggle-button-select {
+  border: none;
+  background: transparent;
+  position: absolute;
+  right: 4px;
+  top: 35px;
+}
+
+.close-button {
+  right: 39px;
+  font-size: 23px;
+  top: 32px;
+  color: #828599;
+}

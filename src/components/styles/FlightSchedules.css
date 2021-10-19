@@ -1,0 +1,40 @@
+.schelude-container {
+  width: 100%;
+}
+
+.schelude-container > div {
+  margin-bottom: 5;
+  border-color: #2196f3;
+  border-bottom: ridge;
+  padding: 16;
+}
+
+.schedule-row {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #3f51b5;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.schedule-row:hover {
+  background: cornflowerblue;
+  color: white;
+}
+
+.schedule-column {
+  flex-basis: 33%;
+  text-align: center;
+}
+
+.schedule-column p {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.schedule-column > span {
+  font-size: 0.75rem;
+  line-height: 1.66;
+  margin: 8px;
+}

@@ -1,0 +1,206 @@
+{
+  "flights": [
+    {
+      "id": "0",
+      "flightNbr": "MexA-278",
+      "airlineName": "MexiAzteca",
+      "deptTime": "20:00",
+      "deptCity": "CDMX",
+      "arivalTime": "22:00",
+      "arivalCity": "Washington D.C",
+      "noOfStops": "0",
+      "price": "4355"
+    },
+    {
+      "id": "1",
+      "flightNbr": "MexA-274",
+      "airlineName": "MexiAzteca",
+      "deptTime": "16:00",
+      "deptCity": "CDMX",
+      "arivalTime": "18:00",
+      "arivalCity": "Washington D.C",
+      "noOfStops": "0",
+      "price": "6355"
+    },
+    {
+      "id": "2",
+      "flightNbr": "MexA-275",
+      "airlineName": "MexiAzteca",
+      "deptTime": "14:00",
+      "deptCity": "CDMX",
+      "arivalTime": "17:00",
+      "arivalCity": "Washington D.C",
+      "noOfStops": "0",
+      "price": "10355"
+    },
+    {
+      "id": "3",
+      "flightNbr": "MexA-S275",
+      "airlineName": "MexiAzteca",
+      "deptTime": "13:00",
+      "deptCity": "CDMX",
+      "arivalTime": "17:00",
+      "arivalCity": "Tokío",
+      "noOfStops": "1",
+      "price": "2522"
+    },
+    {
+      "id": "4",
+      "flightNbr": "AM-275",
+      "airlineName": "Air Mexicana",
+      "deptTime": "03:00",
+      "deptCity": "CDMX",
+      "arivalTime": "05:00",
+      "arivalCity": "Pekín",
+      "noOfStops": "0",
+      "price": "1500"
+    },
+    {
+      "id": "5",
+      "flightNbr": "AM-275",
+      "airlineName": "Air Mexicana",
+      "deptTime": "04:00",
+      "deptCity": "CDMX",
+      "arivalTime": "06:00",
+      "arivalCity": "Tokio",
+      "noOfStops": "0",
+      "price": "3600"
+    },
+    {
+      "id": "6",
+      "flightNbr": "AM-275",
+      "airlineName": "Air Mexicana",
+      "deptTime": "03:00",
+      "deptCity": "CDMX",
+      "arivalTime": "05:00",
+      "arivalCity": "Pekín",
+      "noOfStops": "0",
+      "price": "1500"
+    },
+    {
+      "id": "7",
+      "flightNbr": "AM-275",
+      "airlineName": "Air Mexicana",
+      "deptTime": "04:00",
+      "deptCity": "CDMX",
+      "arivalTime": "06:00",
+      "arivalCity": "Tokio",
+      "noOfStops": "0",
+      "price": "3600"
+    },
+    {
+      "id": "8",
+      "flightNbr": "AM-266",
+      "airlineName": "Air Mexicana",
+      "deptTime": "04:00",
+      "deptCity": "Moscú",
+      "arivalTime": "06:00",
+      "arivalCity": "Tokio",
+      "noOfStops": "0",
+      "price": "5988"
+    },
+    {
+      "id": "9",
+      "flightNbr": "MexA-279",
+      "airlineName": "MexiAzteca",
+      "deptTime": "16:00",
+      "deptCity": "Moscú",
+      "arivalTime": "22:00",
+      "arivalCity": "Pekín",
+      "noOfStops": "2",
+      "price": "4355"
+    },
+    {
+      "id": "10",
+      "flightNbr": "AM-277",
+      "airlineName": "Air Mexicana",
+      "deptTime": "11:00",
+      "deptCity": "CDMX",
+      "arivalTime": "18:00",
+      "arivalCity": "Moscu",
+      "noOfStops": "1",
+      "price": "19500"
+    },
+    {
+      "id": "10",
+      "flightNbr": "AM-212",
+      "airlineName": "Air Mexicana",
+      "deptTime": "14:00",
+      "deptCity": "CDMX",
+      "arivalTime": "20:00",
+      "arivalCity": "Moscu",
+      "noOfStops": "1",
+      "price": "22500"
+    },
+    {
+      "id": "11",
+      "flightNbr": "AM-2E12",
+      "airlineName": "Air Mexicana",
+      "deptTime": "14:00",
+      "deptCity": "CDMX",
+      "arivalTime": "20:00",
+      "arivalCity": "París",
+      "noOfStops": "0",
+      "price": "12500"
+    },
+    {
+      "id": "12",
+      "flightNbr": "Vis-211",
+      "airlineName": "Volairis",
+      "deptTime": "13:00",
+      "deptCity": "CDMX",
+      "arivalTime": "18:00",
+      "arivalCity": "Berlín",
+      "noOfStops": "1",
+      "price": "14500"
+    },
+    {
+      "id": "13",
+      "flightNbr": "Vis-254",
+      "airlineName": "Volairis",
+      "deptTime": "20:00",
+      "deptCity": "CDMX",
+      "arivalTime": "01:00",
+      "arivalCity": "Berlín",
+      "noOfStops": "1",
+      "price": "11500"
+    }
+  ],
+  "cities": [
+    {
+      "id": "1",
+      "name": "CDMX",
+      "state": "México"
+    },
+    {
+      "id": "2",
+      "name": "Washington D.C",
+      "state": "Estados Unidos"
+    },
+    {
+      "id": "3",
+      "name": "Tokio",
+      "state": "Japón"
+    },
+    {
+      "id": "4",
+      "name": "Moscú",
+      "state": "Rusia"
+    },
+    {
+      "id": "5",
+      "name": "París",
+      "state": "Francia"
+    },
+    {
+      "id": "6",
+      "name": "Pekín",
+      "state": "China"
+    },
+    {
+      "id": "7",
+      "name": "Berlin",
+      "state": "Alemania"
+    }
+  ]
+}

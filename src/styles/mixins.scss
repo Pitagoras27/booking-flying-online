@@ -1,0 +1,11 @@
+@mixin arrow-rotate($degree) {
+  -moz-transform: rotate($degree);
+  -ms-transform: rotate($degree);
+  -o-transform: rotate($degree);
+  -webkit-transform: rotate($degree);
+}
+
+@mixin general-button-style {
+  border: 0;
+  vertical-align: middle;
+}

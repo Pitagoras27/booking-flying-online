@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "CDMX",
+    "state": "México"
+  },
+  {
+    "id": "2",
+    "name": "Washington D.C",
+    "state": "Estados Unidos"
+  },
+  {
+    "id": "3",
+    "name": "Tokio",
+    "state": "Japón"
+  },
+  {
+    "id": "4",
+    "name": "Moscú",
+    "state": "Rusia"
+  },
+  {
+    "id": "5",
+    "name": "París",
+    "state": "Francia"
+  },
+  {
+    "id": "6",
+    "name": "Pekín",
+    "state": "China"
+  },
+  {
+    "id": "7",
+    "name": "Berlin",
+    "state": "Alemania"
+  }
+]

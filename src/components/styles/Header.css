@@ -1,0 +1,35 @@
+header {
+  background-image: url("../../assets/img/skyblue.jpg");
+}
+
+:root {
+  --Soft-violet: hsl(277, 64%, 61%);
+}
+.image-container:after {
+  content: "";
+  /*position: absolute;¨*/
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--Soft-violet);
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+  display: block;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 0;
+  padding: 25px;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2d70e9, 0 2px 0 #2768dd, 0 3px 0 #2664d5,
+    0 4px 0 #2460cf, 0 5px 0 #245dc7, 0 6px 0 #255bbf, 0 7px 0 #2356b5,
+    0 8px 0 #204ea5, 0 9px 0 #1f4a9b, 0 10px 0 #1d4591,
+    0 22px 30px rgb(0 0 0 / 90%);
+  color: white;
+}
